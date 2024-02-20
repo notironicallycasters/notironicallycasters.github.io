@@ -1,5 +1,5 @@
 # Who are we ?
-## We are teenagers from around the world gathering up to make the best game ith no budget + school pressure and stuff
+## We are teenagers from around the world gathering up to make the best game with no budget + school pressure and stuff
 
 # Peoples
 
