@@ -35,3 +35,8 @@ img {
     font-weight:bolder;
     font-size: 72px;
 }
+
+.logo {
+    max-width: 512px;
+    max-height: 512px;
+}
