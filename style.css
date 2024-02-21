@@ -49,3 +49,37 @@ img {
 a {
     color:lime;
 }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    width: 385px;
+    color: red;
+}
+
+.navbar a:hover{
+    background-color: #eee;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar{
+    position: fixed;
+}
+
+head{
+    margin: 0px;
+}
