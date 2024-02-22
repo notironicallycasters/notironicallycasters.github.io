@@ -46,6 +46,11 @@ img {
     max-height: 512px;
 }
 
+.imgbigger {
+    width: 1024px;
+    height: 1024px;
+}
+
 a {
     color:lime;
 }

@@ -19,5 +19,22 @@
     <img class="logo" src="https://cdn.discordapp.com/attachments/1100458116837023857/1209833477185339432/rtekmT_1.png?ex=65e85c3a&is=65d5e73a&hm=2ea35023d210975f054ce6c016ac3022b112be5025ba9e88d3c5e42ebc6ed12d&" alt="">
     <h2 class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi magni, illum dicta aperiam sit quis optio, neque ipsam aliquid, autem inventore? Unde aut ut officiis exercitationem libero minus. Officia.</h2>
     </center>
+    <script>
+        // Define an array of font families
+        var fontFamilies = ["Impact", "Helvetica", "Times New Roman", "Courier New", "Arial", "Georgia", "Palatino", "Garamond", "Bookman", "Comic Sans MS"];
+    
+        var scrollCount = 0;
+        var fontIndex = 0;
+    
+        window.addEventListener('scroll', function() {
+            scrollCount++;
+    
+            if (scrollCount % 5 === 0) { // Change font family every 10 scrolls
+                var randomFontFamily = fontFamilies[fontIndex];
+                fontIndex = (fontIndex + 1) % fontFamilies.length; // Cycle through fontFamilies array
+                document.querySelector('.title').style.fontFamily = randomFontFamily;
+            }
+        });
+    </script>
 </body>
 </html>
