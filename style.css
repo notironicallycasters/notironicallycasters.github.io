@@ -52,23 +52,23 @@ a {
 
 .navbar ul{
     list-style-type: none;
-    background-color: #fff;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 .navbar a{
     text-decoration: none;
-    padding: 10px 133.33333px;
+    padding: 10px 100px;
     display: block;
     text-align: center;
-    color: red;
+    color: #0f0;
 }
 
 .navbar a:hover{
-    background-color: #eee;
+    background-color: #111111aa;
 }
 
 .navbar li{
@@ -79,4 +79,10 @@ a {
     top: 0px;
     left: 0px;
     position: fixed;
+}
+
+.small-logo{
+    float: left;
+    font-size: 36px;
+    color: white;
 }
