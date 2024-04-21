@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="no-margin" style="background-color:#00acc0;">
+    <center>
+    <h1 class="tab-h-bg">​ ​</h1>
+    <h1 class="tab-h-bg">welcome to the</h1>
+    <h1 class="tab-h-bg">non-official Dua Lipa website</h1>
+    <h1 class="tab-h-bg">​ ​</h1>
+    <h1 class="tab-h-bg">​ ​</h1>
+    <h1 class="tab-h-bg">​ ​</h1>
+    <p class="wave">​ ​</p>
+    <h2 class="invisible-blue">​ ​</h2>
+    
+    <h2 class="h">radical optimism releases in:</h2>
+    <h2 id="timer" class="tab-h"></h2>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("May 3, 2024 00:00:00").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+      
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+      
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+        // Display the result in the element with id="timer"
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
+      <script>
+        window.addEventListener('scroll', function() {
+          // Calculate the opacity based on scroll position
+          var opacity = Math.min(1, window.scrollY / 2000); // You can adjust the 500 to change the rate of darkening
+          // Calculate the intermediate color
+          var g = Math.round(63 + (1 - opacity) * (172 - 63));
+          var b = Math.round(97 + (1 - opacity) * (192 - 97));
+          // Set the background color with opacity
+          document.body.style.backgroundColor = `rgb(0, ${g}, ${b})`;
+        });
+      </script>
+      <img class="imgbig" src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb6bcecec87bb683d49f0edc6a" alt="">
+      <h2 class="h">while waiting it, listen to the songs that already released !</h2>
+      <iframe style="spotify" src="https://open.spotify.com/embed/track/4OMJGnvZfDvsePyCwRGO7X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="spotify" src="https://open.spotify.com/embed/track/6Qb7YsAqH4wWFUMbGsCpap?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="spotify" src="https://open.spotify.com/embed/track/59xD5osEFsaNt5PXfIKUnX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <h2 class="h">or listen to futur nostalgia</h2>
+      <iframe style="spotify" src="https://open.spotify.com/embed/album/7fJJK56U9fHixgO0HQkhtI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <h2 class="invisible-blue">​ ​</h2>
+    </center>
+</body>
+</html>

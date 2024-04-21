@@ -18,6 +18,10 @@ h6 {
     color: black;
 }
 
+.invisible-blue {
+    color: #00acc0;
+}
+
 img {
     max-width: 256px;
     max-height: 256px;
@@ -34,6 +38,30 @@ img {
 .tab {
     font-weight:bolder;
     font-size: 72px;
+}
+
+.tab-h {
+    font-weight:bolder;
+    font-size: 72px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.tab-h-bg {
+    font-weight:bolder;
+    font-size: 72px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    background-color: #00b7ff;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.h {
+    font-weight:bolder;
+    font-size: 36px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .logo {
@@ -93,4 +121,30 @@ a {
 
 .small-logo::first-letter {
     color: red;
+}
+
+@keyframes moveRight {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.wave{
+    margin-top: 0%;
+    color: #00acc0;
+    font-size: 48px;
+    background-image: url('https://i.ibb.co/Ws8j9mv/wave.png');
+    background-repeat: repeat-x;
+    animation: moveRight 30s linear infinite;
+}
+
+.no-margin{
+    margin: 0%;
+}
+
+.spotify{
+    border-radius:12px
 }
