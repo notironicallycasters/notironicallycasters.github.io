@@ -148,3 +148,35 @@ a {
 .spotify{
     border-radius:12px
 }
+
+.bg-image{
+    background-color:black;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease;
+}
+
+button {
+    color: yellow;
+    font-weight:bolder;
+    font-size: 72px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.guerracivil {
+    font-weight:bolder;
+    font-size: 72px;
+    color: red;
+}
+
+p {
+    font-size: 256px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
