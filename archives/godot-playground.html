@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Godot Playground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <nav class="navbar">
+        <ul>
+            <li><a class="small-logo" href="index.html">-A Games</a></li>
+            <li><a href="peoples.html">Peoples</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://discord.gg/PSSsNKF8zZ">Discord</a></li>
+        </ul>
+    </nav>
+</head>
+<body style="background-color:black;">
+    <center>
+    <h1 class="title">Change the game</h1>
+    <h1>Welcome to the Godot Playground official website !</h1>
+    <h2>Godot Playground is a 2D sandbox made in Godot 4.2</h2>
+    <h2 class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi magni, illum dicta aperiam sit quis optio, neque ipsam aliquid, autem inventore? Unde aut ut officiis exercitationem libero minus. Officia.</h2>
+    <h2>It is open source</h2>
+    <h2>It is community based and that's why we need YOU !</h2>
+    <h2>Download the code and make your own mods</h2>
+    <h2 class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi magni, illum dicta aperiam sit quis optio, neque ipsam aliquid, autem inventore? Unde aut ut officiis exercitationem libero minus. Officia.</h2>
+    <h2 class><a href="https://github.com/minusagames/Godot-Playground">Source code</a></h2>
+    <h2 class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi magni, illum dicta aperiam sit quis optio, neque ipsam aliquid, autem inventore? Unde aut ut officiis exercitationem libero minus. Officia.</h2>
+    <img class="imgbig" src="https://i.ibb.co/4mBhzbN/Sans-titre-18-1.png" alt="">
+    <h2 class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi magni, illum dicta aperiam sit quis optio, neque ipsam aliquid, autem inventore? Unde aut ut officiis exercitationem libero minus. Officia.</h2>
+</center>
+    <script>
+        // Define an array of font families
+        var fontFamilies = ["Impact", "Helvetica", "Times New Roman", "Courier New", "Arial", "Georgia", "Palatino", "Garamond", "Bookman", "Comic Sans MS"];
+    
+        var scrollCount = 0;
+        var fontIndex = 0;
+    
+        window.addEventListener('scroll', function() {
+            scrollCount++;
+    
+            if (scrollCount % 5 === 0) { // Change font family every 10 scrolls
+                var randomFontFamily = fontFamilies[fontIndex];
+                fontIndex = (fontIndex + 1) % fontFamilies.length; // Cycle through fontFamilies array
+                document.querySelector('.title').style.fontFamily = randomFontFamily;
+            }
+        });
+    </script>
+</body>
+</html>

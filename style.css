@@ -4,206 +4,58 @@ h3,
 h4,
 h5,
 h6 {
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-family:Arial;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+
 }
 
-
-.title {
-    font-size: 230px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.invisible {
-    color: black;
-}
-
-.invisible-blue {
-    color: #00acc0;
-}
 
 img {
-    max-width: 256px;
-    max-height: 256px;
+    height: 86px;
 }
 
-.prog {
-    color:lime;
+.icon {
+    border-radius: 50%;
+    width: 96px;
+    height: auto;
 }
 
-.art {
-    color:red;
+html {
+    background-color: #fff;
+    background-size: 512px;
+
 }
 
-.tab {
-    font-weight:bolder;
-    font-size: 72px;
-}
 
-.tab-h {
-    font-weight:bolder;
-    font-size: 72px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 900;
-}
-
-.tab-h-bg {
-    font-weight:bolder;
-    font-size: 72px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 900;
-    background-color: #00b7ff;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.h {
-    font-weight:bolder;
+h1 {
     font-size: 36px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 900;
 }
 
-.logo {
-    max-width: 512px;
-    max-height: 512px;
+h2 {
+    font-size: 24px;
 }
 
-.imgbig {
-    max-width: 512px;
-    max-height: 512px;
-}
-
-.imgbigger {
-    width: 1024px;
-    height: 1024px;
-}
-
-a {
-    color:lime;
-}
-
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-.navbar a{
-    text-decoration: none;
-    padding: 15px 50px;
-    display: block;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: #111111aa;
-}
-
-.navbar li{
-    float: left;
-}
-
-.navbar{
-    top: 0px;
-    left: 0px;
-    position: fixed;
-}
-
-.small-logo{
-    float: left;
-    font-size: 36px;
-    color: white;
-}
-
-.small-logo::first-letter {
-    color: red;
-}
-
-@keyframes moveRight {
-    0% {
-        background-position: 100% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
-
-.wave{
-    margin-top: 0%;
-    color: #00acc0;
-    font-size: 48px;
-    background-image: url('https://i.ibb.co/Ws8j9mv/wave.png');
-    background-repeat: repeat-x;
-    animation: moveRight 30s linear infinite;
-}
-
-.no-margin{
-    margin: 0%;
-}
-
-.spotify{
-    border-radius:12px
-}
-
-.bg-image{
-    background-color:black;
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
-    transition: background-image 1s ease;
-}
-
-button {
-    color: yellow;
-    font-weight:bolder;
-    font-size: 72px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-}
-
-.guerracivil {
-    font-weight:bolder;
-    font-size: 72px;
-    color: red;
-}
-
-p {
-    font-size: 256px;
-    font-family: 'Courier New', Courier, monospace;
-    color: red;
-}
-
-.pixel {
-    color: #00FF00;
-    font-family: Consolas;
-}
-
-input {
-    color: #00FF00;
-    font-family: Consolas;
-    font-weight: bolder;
+h3 {
     font-size: 16px;
-    width: 100%;
-	margin: 0;
-	padding-top:0px;
-	padding-bottom:0px;
-	padding-left:0px;
-	padding-right:0px;
-	background-color:#000;
-    border:none;
-    outline:none;
 }
 
-.inline {
+.container {
+    margin-right: 64px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 300px;
+}
+
+.big-container {
     display: flex;
-    justify-content: space-between;
-  }
-  
+}
