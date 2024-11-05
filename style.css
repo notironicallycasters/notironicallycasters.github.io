@@ -4,36 +4,37 @@ h3,
 h4,
 h5,
 h6 {
-    color:black;
     font-family:Arial;
     text-shadow:
     -1px -1px 0 #fff,
     1px -1px 0 #fff,
     -1px 1px 0 #fff,
     1px 1px 0 #fff;  
+    color: black;
 
 }
 
 
 img {
-    height: 86px;
+    height: 144px;
 }
 
 .icon {
     border-radius: 50%;
-    width: 96px;
+    width: 128px;
     height: auto;
 }
 
 html {
     background-color: #fff;
+    background-image: bg.png;
     background-size: 512px;
 
 }
 
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 h2 {
@@ -58,4 +59,14 @@ h3 {
 
 .big-container {
     display: flex;
+}
+
+.Charli {
+    color: #8ACE00;
+}
+.Dua {
+    color: #00acc0;
+}
+.Liv {
+    color: #7f7fb5;
 }
